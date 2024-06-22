@@ -1,0 +1,17 @@
+nav{
+    background-color: blue;
+}
+
+nav a{
+    float:right;
+    color:black;
+    text-decoration: none;
+    display: block;
+}
+
+.hero{
+    border: 1px solid red;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
