@@ -1,17 +1,43 @@
-nav{
-    background-color: blue;
-}
-
-nav a{
-    float:right;
-    color:black;
-    text-decoration: none;
+main{
+    width:100%;
+  /*   border:1px solid red; */
+    padding: 20px;
+    background-color:#1A38D4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:100px;
+  }
+  h1,h3{
+     color:white;
+  }
+  .texts{
+    display:flex;
+    flex-direction:column;
+    gap:1px;
+  /*   border:1px solid yellow */
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
     display: block;
-}
-
-.hero{
-    border: 1px solid red;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-}
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
